@@ -19,7 +19,8 @@ setuptools.setup(
     ],
     cmdclass={"bdist_wheel": bdist_wheel_abi3},
     install_requires=[
-        "aioice @ git+ssh://git@github.com/mduppes/aioice#limit_udp_port",
+        "aioice @ git+https://github.com/mduppes/aioice.git@limit_udp_port",
+        # "aioice @ git+ssh://git@github.com/mduppes/aioice#limit_udp_port",
         "av>=9.0.0,<13.0.0",
         "cffi>=1.0.0",
         "cryptography>=42.0.0",
